@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081EF35A2E2C2F8E420B06DB /* Pods_BookerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6316A09EB404F5BC75DAFDE /* Pods_BookerApp.framework */; };
 		2235ADDC215FADF8005E9EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADDB215FADF8005E9EFF /* AppDelegate.swift */; };
-		2235ADDE215FADF8005E9EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADDD215FADF8005E9EFF /* ViewController.swift */; };
+		2235ADDE215FADF8005E9EFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADDD215FADF8005E9EFF /* LoginViewController.swift */; };
 		2235ADE1215FADF8005E9EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235ADDF215FADF8005E9EFF /* Main.storyboard */; };
 		2235ADE4215FADF8005E9EFF /* BookerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADE2215FADF8005E9EFF /* BookerApp.xcdatamodeld */; };
 		2235ADE6215FADFA005E9EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2235ADE5215FADFA005E9EFF /* Assets.xcassets */; };
 		2235ADE9215FADFB005E9EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235ADE7215FADFB005E9EFF /* LaunchScreen.storyboard */; };
 		2235ADF4215FADFB005E9EFF /* BookerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADF3215FADFB005E9EFF /* BookerAppTests.swift */; };
 		2235ADFF215FADFB005E9EFF /* BookerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADFE215FADFB005E9EFF /* BookerAppUITests.swift */; };
+		2235AE0D215FB8E8005E9EFF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235AE0C215FB8E7005E9EFF /* SignUpViewController.swift */; };
+		2235AE0F215FB91B005E9EFF /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235AE0E215FB91B005E9EFF /* BookingViewController.swift */; };
+		2235AE12215FBA39005E9EFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2235AE11215FBA39005E9EFF /* GoogleService-Info.plist */; };
+		2251D11D215FFE29006667AF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251D11C215FFE29006667AF /* Room.swift */; };
+		2251D12221601C8C006667AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251D12121601C8C006667AF /* HomeViewController.swift */; };
+		2251D12421601D5D006667AF /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2251D12321601D5D006667AF /* Activity.swift */; };
+		3AC156A48D9511F8F05BC4D6 /* Pods_BookerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F21C5FFA04D6A5D62E3147 /* Pods_BookerAppUITests.framework */; };
+		E5EAF0AEFA30940170477DF2 /* Pods_BookerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BD793291B921E09B101438 /* Pods_BookerAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08F21C5FFA04D6A5D62E3147 /* Pods_BookerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B815AAAA7266521622FDF08 /* Pods-BookerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookerAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookerAppTests/Pods-BookerAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2235ADD8215FADF8005E9EFF /* BookerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2235ADDB215FADF8005E9EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2235ADDD215FADF8005E9EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2235ADDD215FADF8005E9EFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2235ADE0215FADF8005E9EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2235ADE3215FADF8005E9EFF /* BookerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookerApp.xcdatamodel; sourceTree = "<group>"; };
 		2235ADE5215FADFA005E9EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,19 @@
 		2235ADFA215FADFB005E9EFF /* BookerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2235ADFE215FADFB005E9EFF /* BookerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookerAppUITests.swift; sourceTree = "<group>"; };
 		2235AE00215FADFB005E9EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2235AE0C215FB8E7005E9EFF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2235AE0E215FB91B005E9EFF /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		2235AE11215FBA39005E9EFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2251D11C215FFE29006667AF /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		2251D12121601C8C006667AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2251D12321601D5D006667AF /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		2F2D1D64062F9AC215C67DEF /* Pods-BookerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookerAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookerAppUITests/Pods-BookerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30D6F8F9C2FFEFA6DF2909D3 /* Pods-BookerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookerAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookerAppUITests/Pods-BookerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34E93D4EF29530A0AD5E242D /* Pods-BookerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookerApp/Pods-BookerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A6316A09EB404F5BC75DAFDE /* Pods_BookerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C49E359A861B0499755D2B /* Pods-BookerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookerAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookerAppTests/Pods-BookerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9714026D15C532116E7A244 /* Pods-BookerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookerApp/Pods-BookerApp.release.xcconfig"; sourceTree = "<group>"; };
+		F6BD793291B921E09B101438 /* Pods_BookerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081EF35A2E2C2F8E420B06DB /* Pods_BookerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EAF0AEFA30940170477DF2 /* Pods_BookerAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC156A48D9511F8F05BC4D6 /* Pods_BookerAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,8 @@
 				2235ADF2215FADFB005E9EFF /* BookerAppTests */,
 				2235ADFD215FADFB005E9EFF /* BookerAppUITests */,
 				2235ADD9215FADF8005E9EFF /* Products */,
+				DFCADCC0D8493A0823F8CD70 /* Pods */,
+				92347FF91E480552EB955FED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,11 +129,13 @@
 			isa = PBXGroup;
 			children = (
 				2235ADDB215FADF8005E9EFF /* AppDelegate.swift */,
-				2235ADDD215FADF8005E9EFF /* ViewController.swift */,
+				2235AE10215FB95A005E9EFF /* Controllers */,
 				2235ADDF215FADF8005E9EFF /* Main.storyboard */,
 				2235ADE5215FADFA005E9EFF /* Assets.xcassets */,
+				2251D11E215FFE34006667AF /* Model */,
 				2235ADE7215FADFB005E9EFF /* LaunchScreen.storyboard */,
 				2235ADEA215FADFB005E9EFF /* Info.plist */,
+				2235AE11215FBA39005E9EFF /* GoogleService-Info.plist */,
 				2235ADE2215FADF8005E9EFF /* BookerApp.xcdatamodeld */,
 			);
 			path = BookerApp;
@@ -128,6 +159,49 @@
 			path = BookerAppUITests;
 			sourceTree = "<group>";
 		};
+		2235AE10215FB95A005E9EFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2235ADDD215FADF8005E9EFF /* LoginViewController.swift */,
+				2235AE0C215FB8E7005E9EFF /* SignUpViewController.swift */,
+				2235AE0E215FB91B005E9EFF /* BookingViewController.swift */,
+				2251D12121601C8C006667AF /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2251D11E215FFE34006667AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2251D11C215FFE29006667AF /* Room.swift */,
+				2251D12321601D5D006667AF /* Activity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92347FF91E480552EB955FED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6316A09EB404F5BC75DAFDE /* Pods_BookerApp.framework */,
+				F6BD793291B921E09B101438 /* Pods_BookerAppTests.framework */,
+				08F21C5FFA04D6A5D62E3147 /* Pods_BookerAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFCADCC0D8493A0823F8CD70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E93D4EF29530A0AD5E242D /* Pods-BookerApp.debug.xcconfig */,
+				E9714026D15C532116E7A244 /* Pods-BookerApp.release.xcconfig */,
+				C2C49E359A861B0499755D2B /* Pods-BookerAppTests.debug.xcconfig */,
+				1B815AAAA7266521622FDF08 /* Pods-BookerAppTests.release.xcconfig */,
+				2F2D1D64062F9AC215C67DEF /* Pods-BookerAppUITests.debug.xcconfig */,
+				30D6F8F9C2FFEFA6DF2909D3 /* Pods-BookerAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2235AE03215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerApp" */;
 			buildPhases = (
+				68E287899835ABF68D37BFF5 /* [CP] Check Pods Manifest.lock */,
 				2235ADD4215FADF8005E9EFF /* Sources */,
 				2235ADD5215FADF8005E9EFF /* Frameworks */,
 				2235ADD6215FADF8005E9EFF /* Resources */,
+				87952A3D1AA8BBD72E292338 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2235AE06215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerAppTests" */;
 			buildPhases = (
+				1756B5BCF5CE132DF0F33072 /* [CP] Check Pods Manifest.lock */,
 				2235ADEB215FADFB005E9EFF /* Sources */,
 				2235ADEC215FADFB005E9EFF /* Frameworks */,
 				2235ADED215FADFB005E9EFF /* Resources */,
@@ -170,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2235AE09215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerAppUITests" */;
 			buildPhases = (
+				B80A597709B79B8D084D1E4B /* [CP] Check Pods Manifest.lock */,
 				2235ADF6215FADFB005E9EFF /* Sources */,
 				2235ADF7215FADFB005E9EFF /* Frameworks */,
 				2235ADF8215FADFB005E9EFF /* Resources */,
@@ -233,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2235ADE9215FADFB005E9EFF /* LaunchScreen.storyboard in Resources */,
+				2235AE12215FBA39005E9EFF /* GoogleService-Info.plist in Resources */,
 				2235ADE6215FADFA005E9EFF /* Assets.xcassets in Resources */,
 				2235ADE1215FADF8005E9EFF /* Main.storyboard in Resources */,
 			);
@@ -254,13 +333,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1756B5BCF5CE132DF0F33072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E287899835ABF68D37BFF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87952A3D1AA8BBD72E292338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookerApp/Pods-BookerApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookerApp/Pods-BookerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B80A597709B79B8D084D1E4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2235ADD4215FADF8005E9EFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2235ADDE215FADF8005E9EFF /* ViewController.swift in Sources */,
+				2235AE0F215FB91B005E9EFF /* BookingViewController.swift in Sources */,
+				2235ADDE215FADF8005E9EFF /* LoginViewController.swift in Sources */,
+				2251D11D215FFE29006667AF /* Room.swift in Sources */,
 				2235ADDC215FADF8005E9EFF /* AppDelegate.swift in Sources */,
+				2235AE0D215FB8E8005E9EFF /* SignUpViewController.swift in Sources */,
+				2251D12221601C8C006667AF /* HomeViewController.swift in Sources */,
+				2251D12421601D5D006667AF /* Activity.swift in Sources */,
 				2235ADE4215FADF8005E9EFF /* BookerApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,11 +597,13 @@
 		};
 		2235AE04215FADFB005E9EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E93D4EF29530A0AD5E242D /* Pods-BookerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7L64W5CDU;
 				INFOPLIST_FILE = BookerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +617,13 @@
 		};
 		2235AE05215FADFB005E9EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9714026D15C532116E7A244 /* Pods-BookerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7L64W5CDU;
 				INFOPLIST_FILE = BookerApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +637,7 @@
 		};
 		2235AE07215FADFB005E9EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C49E359A861B0499755D2B /* Pods-BookerAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +659,7 @@
 		};
 		2235AE08215FADFB005E9EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B815AAAA7266521622FDF08 /* Pods-BookerAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +681,7 @@
 		};
 		2235AE0A215FADFB005E9EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2D1D64062F9AC215C67DEF /* Pods-BookerAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +702,7 @@
 		};
 		2235AE0B215FADFB005E9EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D6F8F9C2FFEFA6DF2909D3 /* Pods-BookerAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

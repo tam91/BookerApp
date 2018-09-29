@@ -7,7 +7,25 @@
 		<key>BookerApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2235ADD7215FADF8005E9EFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2235ADEE215FADFB005E9EFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2235ADF9215FADFB005E9EFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
