@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2235ADDC215FADF8005E9EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADDB215FADF8005E9EFF /* AppDelegate.swift */; };
+		2235ADDE215FADF8005E9EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADDD215FADF8005E9EFF /* ViewController.swift */; };
+		2235ADE1215FADF8005E9EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235ADDF215FADF8005E9EFF /* Main.storyboard */; };
+		2235ADE4215FADF8005E9EFF /* BookerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADE2215FADF8005E9EFF /* BookerApp.xcdatamodeld */; };
+		2235ADE6215FADFA005E9EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2235ADE5215FADFA005E9EFF /* Assets.xcassets */; };
+		2235ADE9215FADFB005E9EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235ADE7215FADFB005E9EFF /* LaunchScreen.storyboard */; };
+		2235ADF4215FADFB005E9EFF /* BookerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADF3215FADFB005E9EFF /* BookerAppTests.swift */; };
+		2235ADFF215FADFB005E9EFF /* BookerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2235ADFE215FADFB005E9EFF /* BookerAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2235ADF0215FADFB005E9EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2235ADD0215FADF8005E9EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2235ADD7215FADF8005E9EFF;
+			remoteInfo = BookerApp;
+		};
+		2235ADFB215FADFB005E9EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2235ADD0215FADF8005E9EFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2235ADD7215FADF8005E9EFF;
+			remoteInfo = BookerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2235ADD8215FADF8005E9EFF /* BookerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2235ADDB215FADF8005E9EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2235ADDD215FADF8005E9EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2235ADE0215FADF8005E9EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2235ADE3215FADF8005E9EFF /* BookerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookerApp.xcdatamodel; sourceTree = "<group>"; };
+		2235ADE5215FADFA005E9EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2235ADE8215FADFB005E9EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2235ADEA215FADFB005E9EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2235ADEF215FADFB005E9EFF /* BookerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2235ADF3215FADFB005E9EFF /* BookerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookerAppTests.swift; sourceTree = "<group>"; };
+		2235ADF5215FADFB005E9EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2235ADFA215FADFB005E9EFF /* BookerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2235ADFE215FADFB005E9EFF /* BookerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookerAppUITests.swift; sourceTree = "<group>"; };
+		2235AE00215FADFB005E9EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2235ADD5215FADF8005E9EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235ADEC215FADFB005E9EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235ADF7215FADFB005E9EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2235ADCF215FADF8005E9EFF = {
+			isa = PBXGroup;
+			children = (
+				2235ADDA215FADF8005E9EFF /* BookerApp */,
+				2235ADF2215FADFB005E9EFF /* BookerAppTests */,
+				2235ADFD215FADFB005E9EFF /* BookerAppUITests */,
+				2235ADD9215FADF8005E9EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2235ADD9215FADF8005E9EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2235ADD8215FADF8005E9EFF /* BookerApp.app */,
+				2235ADEF215FADFB005E9EFF /* BookerAppTests.xctest */,
+				2235ADFA215FADFB005E9EFF /* BookerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2235ADDA215FADF8005E9EFF /* BookerApp */ = {
+			isa = PBXGroup;
+			children = (
+				2235ADDB215FADF8005E9EFF /* AppDelegate.swift */,
+				2235ADDD215FADF8005E9EFF /* ViewController.swift */,
+				2235ADDF215FADF8005E9EFF /* Main.storyboard */,
+				2235ADE5215FADFA005E9EFF /* Assets.xcassets */,
+				2235ADE7215FADFB005E9EFF /* LaunchScreen.storyboard */,
+				2235ADEA215FADFB005E9EFF /* Info.plist */,
+				2235ADE2215FADF8005E9EFF /* BookerApp.xcdatamodeld */,
+			);
+			path = BookerApp;
+			sourceTree = "<group>";
+		};
+		2235ADF2215FADFB005E9EFF /* BookerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2235ADF3215FADFB005E9EFF /* BookerAppTests.swift */,
+				2235ADF5215FADFB005E9EFF /* Info.plist */,
+			);
+			path = BookerAppTests;
+			sourceTree = "<group>";
+		};
+		2235ADFD215FADFB005E9EFF /* BookerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2235ADFE215FADFB005E9EFF /* BookerAppUITests.swift */,
+				2235AE00215FADFB005E9EFF /* Info.plist */,
+			);
+			path = BookerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2235ADD7215FADF8005E9EFF /* BookerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2235AE03215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerApp" */;
+			buildPhases = (
+				2235ADD4215FADF8005E9EFF /* Sources */,
+				2235ADD5215FADF8005E9EFF /* Frameworks */,
+				2235ADD6215FADF8005E9EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookerApp;
+			productName = BookerApp;
+			productReference = 2235ADD8215FADF8005E9EFF /* BookerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2235ADEE215FADFB005E9EFF /* BookerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2235AE06215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerAppTests" */;
+			buildPhases = (
+				2235ADEB215FADFB005E9EFF /* Sources */,
+				2235ADEC215FADFB005E9EFF /* Frameworks */,
+				2235ADED215FADFB005E9EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2235ADF1215FADFB005E9EFF /* PBXTargetDependency */,
+			);
+			name = BookerAppTests;
+			productName = BookerAppTests;
+			productReference = 2235ADEF215FADFB005E9EFF /* BookerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2235ADF9215FADFB005E9EFF /* BookerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2235AE09215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerAppUITests" */;
+			buildPhases = (
+				2235ADF6215FADFB005E9EFF /* Sources */,
+				2235ADF7215FADFB005E9EFF /* Frameworks */,
+				2235ADF8215FADFB005E9EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2235ADFC215FADFB005E9EFF /* PBXTargetDependency */,
+			);
+			name = BookerAppUITests;
+			productName = BookerAppUITests;
+			productReference = 2235ADFA215FADFB005E9EFF /* BookerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2235ADD0215FADF8005E9EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ka ka Tam";
+				TargetAttributes = {
+					2235ADD7215FADF8005E9EFF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2235ADEE215FADFB005E9EFF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2235ADD7215FADF8005E9EFF;
+					};
+					2235ADF9215FADFB005E9EFF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2235ADD7215FADF8005E9EFF;
+					};
+				};
+			};
+			buildConfigurationList = 2235ADD3215FADF8005E9EFF /* Build configuration list for PBXProject "BookerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2235ADCF215FADF8005E9EFF;
+			productRefGroup = 2235ADD9215FADF8005E9EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2235ADD7215FADF8005E9EFF /* BookerApp */,
+				2235ADEE215FADFB005E9EFF /* BookerAppTests */,
+				2235ADF9215FADFB005E9EFF /* BookerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2235ADD6215FADF8005E9EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2235ADE9215FADFB005E9EFF /* LaunchScreen.storyboard in Resources */,
+				2235ADE6215FADFA005E9EFF /* Assets.xcassets in Resources */,
+				2235ADE1215FADF8005E9EFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235ADED215FADFB005E9EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235ADF8215FADFB005E9EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2235ADD4215FADF8005E9EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2235ADDE215FADF8005E9EFF /* ViewController.swift in Sources */,
+				2235ADDC215FADF8005E9EFF /* AppDelegate.swift in Sources */,
+				2235ADE4215FADF8005E9EFF /* BookerApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235ADEB215FADFB005E9EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2235ADF4215FADFB005E9EFF /* BookerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2235ADF6215FADFB005E9EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2235ADFF215FADFB005E9EFF /* BookerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2235ADF1215FADFB005E9EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2235ADD7215FADF8005E9EFF /* BookerApp */;
+			targetProxy = 2235ADF0215FADFB005E9EFF /* PBXContainerItemProxy */;
+		};
+		2235ADFC215FADFB005E9EFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2235ADD7215FADF8005E9EFF /* BookerApp */;
+			targetProxy = 2235ADFB215FADFB005E9EFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2235ADDF215FADF8005E9EFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2235ADE0215FADF8005E9EFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2235ADE7215FADFB005E9EFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2235ADE8215FADFB005E9EFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2235AE01215FADFB005E9EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2235AE02215FADFB005E9EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2235AE04215FADFB005E9EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7L64W5CDU;
+				INFOPLIST_FILE = BookerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ktam.BookerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2235AE05215FADFB005E9EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7L64W5CDU;
+				INFOPLIST_FILE = BookerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ktam.BookerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2235AE07215FADFB005E9EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7L64W5CDU;
+				INFOPLIST_FILE = BookerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ktam.BookerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookerApp.app/BookerApp";
+			};
+			name = Debug;
+		};
+		2235AE08215FADFB005E9EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7L64W5CDU;
+				INFOPLIST_FILE = BookerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ktam.BookerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookerApp.app/BookerApp";
+			};
+			name = Release;
+		};
+		2235AE0A215FADFB005E9EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7L64W5CDU;
+				INFOPLIST_FILE = BookerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ktam.BookerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookerApp;
+			};
+			name = Debug;
+		};
+		2235AE0B215FADFB005E9EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7L64W5CDU;
+				INFOPLIST_FILE = BookerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ktam.BookerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2235ADD3215FADF8005E9EFF /* Build configuration list for PBXProject "BookerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2235AE01215FADFB005E9EFF /* Debug */,
+				2235AE02215FADFB005E9EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2235AE03215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2235AE04215FADFB005E9EFF /* Debug */,
+				2235AE05215FADFB005E9EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2235AE06215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2235AE07215FADFB005E9EFF /* Debug */,
+				2235AE08215FADFB005E9EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2235AE09215FADFB005E9EFF /* Build configuration list for PBXNativeTarget "BookerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2235AE0A215FADFB005E9EFF /* Debug */,
+				2235AE0B215FADFB005E9EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2235ADE2215FADF8005E9EFF /* BookerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2235ADE3215FADF8005E9EFF /* BookerApp.xcdatamodel */,
+			);
+			currentVersion = 2235ADE3215FADF8005E9EFF /* BookerApp.xcdatamodel */;
+			path = BookerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2235ADD0215FADF8005E9EFF /* Project object */;
+}
